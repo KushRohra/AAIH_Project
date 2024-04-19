@@ -1,11 +1,48 @@
-Dataset: 
-Folder dataset contains the images downloaded from kaggle and stored to performing model traning and evaluations.
+[21:10] Kush Rohra
+# Brain Tumor Detection using Deep Learning Techniques
+ 
+## Dataset
 
-Models used to perform "Brain Tumor Detection using Deep Learning Techniques" are available in below notebooks:
-We have performed our model traning and evaluations on,
-1. Model tranings on compariosons between different models (Classifications model, Resnet, VGG19, Xception and Mobilenet): custom_and_pre_trained_classification_models.ipynb
-2. Model tranings on RGB images, with augmentations : rgb_images_training.ipynb
-3. Model tranings on Greyscale images, with augmentations : greyscale_images_training.ipynb
-4. Model tranings on RGB images, without augmentations rgb_images_training_without_data_augmentation.ipynb
-5. Model tranings on Greyscale images, without augmentations : greyscale_images_training_without_data_augmentation.ipynb
-6. Model tranings on Yolo V& Greyscale images (Unable to complete as it was crashing due to memory issues): YoLo_v7_greyscale_images_training.ipynb
+The dataset comprises images sourced from Kaggle and stored within the "dataset" folder for model training and evaluation purposes.
+ 
+## Notebooks for Model Training and Evaluation
+ 
+1. **Custom and Pre-trained Classification Models:**
+
+   - File: `custom_and_pre_trained_classification_models.ipynb`
+
+   - Description: This notebook presents comparisons between different models, including custom-built and pre-trained classification models such as ResNet, VGG19, Xception, and MobileNet.
+ 
+2. **RGB Images Training with Augmentations:**
+
+   - File: `rgb_images_training.ipynb`
+
+   - Description: This notebook details the training of models on RGB images with augmentations to enhance the model's ability to detect brain tumors.
+ 
+3. **Greyscale Images Training with Augmentations:**
+
+   - File: `greyscale_images_training.ipynb`
+
+   - Description: This notebook outlines the training of models on greyscale images with augmentations, aiming to improve the accuracy of tumor detection.
+ 
+4. **RGB Images Training without Augmentations:**
+
+   - File: `rgb_images_training_without_data_augmentation.ipynb`
+
+   - Description: This notebook focuses on training models on RGB images without augmentations, providing insights into the impact of data augmentation techniques on model performance.
+ 
+5. **Greyscale Images Training without Augmentations:**
+
+   - File: `greyscale_images_training_without_data_augmentation.ipynb`
+
+   - Description: This notebook explores the training of models on greyscale images without augmentations, offering a comparison to augmented training approaches.
+ 
+6. **Yolo V7 Greyscale Images Training (Incomplete due to Memory Issues):**
+
+   - File: `YoLo_v7_greyscale_images_training.ipynb`
+
+   - Description: This notebook intended to train the YOLOv7 model on greyscale images; however, it could not be completed due to memory constraints leading to crashing issues.
+ 
+These notebooks provide detailed insights into the methodologies, experiments, and results obtained during the training and evaluation of various deep learning models for brain tumor detection.
+ 
+Feel free to explore each notebook for a comprehensive understanding of the techniques employed and the performance achieved.
