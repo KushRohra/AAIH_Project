@@ -1,4 +1,3 @@
-[21:10] Kush Rohra
 # Brain Tumor Detection using Deep Learning Techniques
  
 ## Dataset
